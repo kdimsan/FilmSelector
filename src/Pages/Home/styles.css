@@ -1,0 +1,47 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 12rem 0;
+}
+
+main h1 {
+    font-size: 4rem;
+    margin-top: 1rem;
+}
+
+main button {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+
+    padding: 1.1rem 1.6rem;
+    margin-top: 3rem;
+
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #000;
+
+    border-radius: 5px;
+    border: none;
+
+    cursor: pointer;
+
+    will-change: filter;
+    transition: filter 300ms;
+}
+
+main button:hover {
+    filter: drop-shadow(0 0 1rem #fff);
+}
+
+main button img {
+    width: 3.5rem;
+    height: 2.5rem;
+}
+
+main p {
+    font-size: 1.4rem;
+    margin-top: 3rem;
+}
