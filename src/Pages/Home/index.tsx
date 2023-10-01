@@ -13,7 +13,6 @@ export function Home() {
         const response = await api.get(`/movie/top_rated?page=${Math.floor(Math.random() * 45) + 1}&language=pt-BR`);
         const pageResolve = response.data.results[Math.floor(Math.random() * 19)];
         setData(pageResolve);
-        console.log("pageResolve", pageResolve);
     };
 
     return(
